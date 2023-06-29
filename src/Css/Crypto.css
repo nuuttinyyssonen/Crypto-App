@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.full-cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8vh;
+    max-width: 40vh;
+    margin: 0 auto;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.searchCrypto {
+    color: white;
+}
+
+.searchBar {
+    height: 20px;
+}
